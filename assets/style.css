@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif;
 }
 
 .banner{
@@ -41,11 +41,12 @@
 
 .new_year_offer .offer_per{
     color: #F00;
-    font-family: Inter;
-    font-size: 88px;
+    font-family: serif;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 10px 0px;
 }
 
 .sub_title{
@@ -60,7 +61,7 @@
 .new_year_offer .sec_title{
     text-transform: uppercase;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -200,6 +201,9 @@
     border: 12px solid #F00;
 }
 
+.right_content{
+    margin-left: 20px;
+}
 .right_content h2{
     font-size: 40px;
     color: #F00;
@@ -255,7 +259,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 100px 60px;
 }
 
@@ -266,10 +269,10 @@
     padding: 10px 0px;
 }
 
-.portfolio_part .holiday_content{
+.portfolio_part .content{
+    width: 800px;
     color: #070211ad;
     line-height: 25px;
-    width: 800px;
 }
 
 .portfolio_img{
@@ -332,4 +335,73 @@
     background: #F00;
     border: 0;
     color: #FFF;
+}
+
+.footer_body{
+    background: #070211;
+}
+.footer_body .contact_part{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 60px;
+}
+
+.footer_body .address{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 60px;
+}
+.footer_body .contact{
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 60px;
+    /* justify-content: space-between; */
+}
+.phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.phone img{
+    width: 20px;
+    height: 20px;
+}
+.email{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.email img{
+    width: 20px;
+    height: 20px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    margin: 100px 60px;
+    gap: 15px;
+    padding: 20px 0px;
+    border-bottom: 0.5px solid #ffffff4a;
+    border-top: 0.5px solid #ffffff4a;
+}
+
+
+.lower_part{
+    color: #FFF;
+    margin: 100px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lower_part .copy_right{
+    margin-bottom: 60px;
+}
+.lower_part .uns{
+    margin-bottom: 60px;
 }

@@ -46,16 +46,15 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: Inter;
 }
 
-.new_year_offer .helper_title{
+.sub_title{
     color: #F00;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .new_year_offer .sec_title{
@@ -120,7 +119,7 @@
 
 .details_banner{
     height: 400px;
-    width: 1320;
+    width: 1320px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 16px;
     color: #070211;
@@ -154,4 +153,68 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-top: 20px;
+    transition: all linear .3s;
 }
+
+.join_now_btn2 button:hover{
+    box-shadow: 3px 3px 5px #00000047;
+    transition: all linear .3s;
+}
+
+.coming_soon{
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 100px 60px;
+    padding: 10px;
+    align-items: center;
+}
+
+.left_content{
+    width: 33%;
+}
+
+.left_content .coming_soon_title{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.left_content .content {
+    margin: 14px 14px 14px 2px;
+    color: #070211ad;
+}
+
+.middle_content{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    
+}
+.middle_content img{
+    width: 60%;
+    padding: 15px;
+    border-radius: 350px;
+    border: 12px solid #F00;
+}
+
+.right_content{
+    width: 33%;
+}
+.right_content h2{
+    font-size: 40px;
+    color: #F00;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right_content p{
+    margin: 14px 14px 14px 2px;
+    color: #070211ad;
+}
+.right_content .new_year_img2 img{
+    width: 100px;
+}
+
+

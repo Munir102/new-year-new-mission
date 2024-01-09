@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;;
+}
+
+.banner{
+    height: 600px;
+    width: 1320;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7 2 17 / 26%) 100%), url(../assets/img/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    margin: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner_content p{
+    font-size: 24px;
+    font-style: normal;
+}
+
+.banner_content h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.new_year_offer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+}
+
+.new_year_offer .offer_per{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Inter;
+}
+
+.new_year_offer .helper_title{
+    color: #F00;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.new_year_offer .sec_title{
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new_year_img{
+    margin: 28px
+}
+
+.new_year_img img{
+    width: 700px;
+}
+
+.welcome_banner{
+    height: 600px;
+    width: 1320;
+    background: linear-gradient(180deg, #070211 0%, rgba(7 2 17 / 26%) 100%), url(./img/Vectorrr.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    margin: 100px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 110px;
+}
+
+.welcome_content h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.welcome_content p{
+    padding:20px 0px;
+    color: rgb(255 255 255 / 69%);
+}
+
+.join_now_btn button{
+    background-color: transparent;
+    padding: 12px;
+    border: 1px solid white;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+
+.join_now_btn button:hover{
+    background-color: #ffffff;
+    color: #070211;
+    transition: all linear 0.5s;
+}
+
+.party_year_img{
+    padding: 20px;
+}
+
+.details_banner{
+    height: 600px;
+    width: 1320;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    color: #070211;
+    margin: 100px 60px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.details_banner span{
+    color: #F00;
+}

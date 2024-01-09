@@ -254,6 +254,17 @@
     line-height: 25px;
 }
 
+.holiday_banner{
+    display: flex;
+    background-image: url(./img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.holiday_banner .box_img img{
+    width: 500px;
+}
+
 
 .portfolio_part{
     display: flex;
@@ -270,7 +281,6 @@
 }
 
 .portfolio_part .content{
-    width: 800px;
     color: #070211ad;
     line-height: 25px;
 }
